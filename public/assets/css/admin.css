@@ -1,0 +1,45 @@
+form {
+    width: 100%;
+}
+
+form .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form .form-control label {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+form .form-control input {
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+
+form .form-control input:hover {
+    border-bottom: 2px solid black;
+}
+
+form .form-control input:focus {
+    border-bottom: 2px solid black;
+}
+
+form .form-control button {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
